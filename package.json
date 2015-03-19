@@ -1,0 +1,29 @@
+{
+  "name": "ytclear",
+  "version": "0.1.0",
+  "description": "youtube title humanize",
+  "main": "index.js",
+  "scripts": {
+    "test": "iojs node_modules/mocha/bin/mocha test.js --reporter spec --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayhankuru/ytclear"
+  },
+  "keywords": [
+    "youtube",
+    "title",
+    "clear",
+    "humanize"
+  ],
+  "author": "Ayhan Kuru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayhankuru/ytclear/issues"
+  },
+  "homepage": "https://github.com/ayhankuru/ytclear",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.1"
+  }
+}
