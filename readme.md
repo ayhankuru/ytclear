@@ -23,3 +23,19 @@ ytclear("Deadmau5 - Strobe (Lemony's Trap Remix) 2012");
 
 ```
 
+## Or 
+
+```sh
+npm install -g ytclear
+
+```
+## Usage
+
+```sh
+echo "Deadmau5 - Strobe (Lemony's Trap Remix) 2012" | ytclear
+
+//or 
+
+ytclear "Deadmau5 - Strobe (Lemony's Trap Remix) 2012" 
+
+```

@@ -1,10 +1,13 @@
 {
   "name": "ytclear",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "youtube title humanize",
   "main": "index.js",
   "scripts": {
     "test": "iojs node_modules/mocha/bin/mocha test.js --reporter spec --timeout 15000"
+  },
+  "bin": {
+    "ytclear": "./bin/ytclear.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,8 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1"
   }
 }

@@ -17,7 +17,8 @@ function ytclear(title){
         title = title.replace(/\(.*ft.?\)/i, '');
         title = title.replace(/\s*with\s+lyrics?\s*$/i, '');  
         title = title.replace(/^(|.*\s)"(.*)"(\s.*|)$/, '$2');  
-        title = title.replace(/^(|.*\s)'(.*)'(\s.*|)$/, '$2');  
+        //title = title.replace(/^(|.*\s)'(.*)'(\s.*|)$/, '$2');
+        title = title.replace(/'/g, '');
         title = title.replace(/^[\/\s,:;~-\s"]+/, '');  
         title = title.replace(/[\/\s,:;~-\s"\s!]+$/, '');   
         title = title.replace(/\((.*?)\)/g, '');
