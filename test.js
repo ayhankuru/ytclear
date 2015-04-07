@@ -16,6 +16,8 @@ describe('Test!!!...', function(){
 	expect(ytclear("Kid Cudi vs. Crookers - Day 'n' Night")).to.eql("Kid Cudi vs. Crookers - Day n Night")	
 	expect(ytclear("Stromae - Alors on danse (clip officiel)")).to.eql("Stromae - Alors on danse");
 	expect(ytclear("Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)")).to.eql("Shakira - Waka Waka");
+	expect(ytclear("Alison Wonderland, AWE - Back It Up (Alison Wonderland x AWE) [Audio]")).to.eql("Alison Wonderland, AWE - Back It Up");
+
 
 	done();
 			
