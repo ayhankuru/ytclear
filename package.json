@@ -1,6 +1,6 @@
 {
-  "name": "ytclear",
-  "version": "0.2.0",
+  "name": "@cobaimelan/ytclear",
+  "version": "0.2.1",
   "description": "youtube title humanize",
   "main": "index.js",
   "scripts": {

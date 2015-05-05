@@ -3,14 +3,14 @@
 ## Install
 
 ```
-npm install ytclear
+npm install @cobaimelan/ytclear
 ```
 
 ## Usage
 
 
 ```js
-var ytclear = require('ytclear');
+var ytclear = require('@cobaimelan/ytclear');
 ```
 
 
@@ -24,7 +24,7 @@ ytclear("Deadmau5 - Strobe (Lemony's Trap Remix) 2012");
 ## Or 
 
 ```sh
-npm install -g ytclear
+npm install -g @cobaimelan/ytclear
 
 ```
 ## Usage
